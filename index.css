@@ -1,0 +1,32 @@
+/*Global*/
+
+
+
+main {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+
+
+/*Profile Image*/
+
+main .profile-container {
+    width: 100%;
+}
+main .profile-container {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+/*About me*/
+
+main #about-me {
+    margin-top: 50px;
+}
+
+
+

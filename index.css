@@ -29,6 +29,27 @@ main #about-me {
     margin-top: 50px;
 }
 
+/*Projects*/
+
+main #projects {
+    width: 100%;
+}
+
+main #projects .feature {
+    margin: 0 auto;
+    width: 700px;
+}
+
+main #projects .feature img {
+border: 2px black solid;
+}
+
+main #projects h3 {
+    text-align: center;
+}
+
+
+
 /*Social Media*/
 
 main #social-media {
@@ -42,6 +63,8 @@ main #social-media .github  {
     width: 120px;
     height: 120px;
 }
+
+
 
 
 

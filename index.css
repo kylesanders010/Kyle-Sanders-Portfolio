@@ -21,12 +21,19 @@ main .profile-container {
     margin: 0 auto;
     width: 500px;
     height: 500px;
+
 }
+
 
 /*About me*/
 
 main #about-me {
     margin-top: 50px;
+    font-size: 22px;
+}
+
+main span {
+    margin-left: 4em;
 }
 
 /*Projects*/

@@ -1,3 +1,5 @@
+/*Global*/
+
 body {
     height: 100vh;
 }
@@ -6,6 +8,7 @@ main {
     text-align: center;
     width: 100%;
 }
+/*Contact*/
 
 .contact-info {
     width: 45%;

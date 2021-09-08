@@ -28,6 +28,12 @@ main #email {
     border: 1px black solid;
 }
 
+/*Github*/
+
+main .github {
+    margin-top: 50px;
+}
+
 
 
 

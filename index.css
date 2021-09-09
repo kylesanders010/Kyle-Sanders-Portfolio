@@ -17,18 +17,31 @@ main {
 main .profile-container {
     width: 100%;
 }
-main .profile-container {
-    margin: 0 auto;
+
+main .profile-container .feature {
     width: 500px;
     height: 500px;
+}
+main .profile-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
 
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 
 /*About me*/
 
 main #about-me {
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 22px;
 }
 

@@ -54,6 +54,8 @@ header {
 
 }
 
+
+
 nav {
     height: inherit;
 }
@@ -77,7 +79,7 @@ header li.first {
 header li {
     display: inline;
     list-style: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-right: 30px;
 }
 
@@ -87,7 +89,27 @@ header li {
 a {
     text-decoration: none;
     color: white;
+   
 }
+
+@media only screen and (max-width: 25rem) {
+    header nav ul .extra {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 15.625rem) {
+    
+    header nav ul li.first {
+        font-size: 1rem;
+    }
+
+}
+
+
+/*Footer*/
+
+
 
 footer {
     position: absolute;

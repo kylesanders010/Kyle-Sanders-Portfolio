@@ -22,6 +22,39 @@ main #phone-number {
 
 }
 
+@media only screen and (max-width: 30rem) {
+    main .contact-info {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 17rem) {
+    
+    main h2 {
+        font-size: 1rem;
+    }
+    
+    main p {
+        font-size: 0.8rem
+    }
+}
+
+@media only screen and (max-width: 13.8rem) {
+    main .contact-info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 11.5rem) {
+    main h2 {
+        font-size: 0.7rem;
+    }
+
+    main p {
+        font-size: 0.6rem;
+    }
+}
+
 
 
 main #email {

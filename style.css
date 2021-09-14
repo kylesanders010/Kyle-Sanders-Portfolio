@@ -72,6 +72,7 @@ header li.first {
     flex: 1;
     padding: 0;
     margin: 0;
+    padding-left: 10px;
 }
 
 
@@ -122,5 +123,11 @@ footer {
     justify-content: center;
     align-items: center;
 
+
+}
+@media only screen and (max-width: 10.9375rem) {
+    footer {
+        font-size: 0.5rem;
+    }
 }
 

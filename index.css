@@ -14,6 +14,16 @@ main {
         width: 100%;
         margin: 0;
     }
+
+    main h1 {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 18.125rem) {
+    main h1 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -48,6 +58,21 @@ main img {
 }
 
 
+@media only screen and (max-width: 28.125rem) {
+    main .profile-container .feature {
+        height: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 38.75rem) {
+    main .profile-container {
+        width: 80%;
+        padding: 0 10%;
+    }
+}
+
 /*About me*/
 
 main #about-me {
@@ -62,7 +87,13 @@ main span {
 
 @media only screen and (max-width: 43.75rem) {
     main #about-me {
-       font-size: 1.125rem;
+       font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 23.75rem) {
+    main #about-me {
+        padding: 10px;
     }
 }
 
@@ -108,14 +139,36 @@ main #projects h3 {
 }
 
 @media only screen and (max-width: 43.75rem) {
-    main #projects .project-container {
-        width: 100%;
+    main #projects .feature .project-container {
+        width: 98%;
+        padding: 0 1%;
+        margin: 0 auto;
     }
+
 
     main #projects .feature img {
         border: none;
     }
+
+    main #projects .feature ul {
+        padding: 40px;
+    }
+
+    main #projects .feature p {
+        padding: 10px;
+    }
+
+    main #projects .feature .project-container .project {
+        height: auto;
+    }
 }
+
+@media only screen and (max-width: 23.75rem) {
+    main #projects .feature .project-container .project {
+        padding: 10px 0;
+    }
+}
+
 
 @media only screen and (max-width: 15.625rem) {
     

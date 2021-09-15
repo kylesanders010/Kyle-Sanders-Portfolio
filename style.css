@@ -84,6 +84,13 @@ header li {
     margin-right: 30px;
 }
 
+.mobile {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+    display: none;
+}
+
 
 
 
@@ -93,9 +100,23 @@ a {
    
 }
 
-@media only screen and (max-width: 25rem) {
+.mobile:hover {
+
+}
+
+.mobile {
+    transition-property: transform;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 31.25rem) {
     header nav ul .extra {
         display: none;
+    }
+
+    .mobile {
+        display: inline-block;
     }
 }
 
@@ -106,6 +127,7 @@ a {
     }
 
 }
+
 
 
 /*Footer*/

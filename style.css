@@ -100,9 +100,6 @@ a {
    
 }
 
-.mobile:hover {
-
-}
 
 .mobile {
     transition-property: transform;

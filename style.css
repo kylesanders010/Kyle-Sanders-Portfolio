@@ -115,6 +115,9 @@ a {
     .mobile {
         display: inline-block;
     }
+
+
+
 }
 
 @media only screen and (max-width: 15.625rem) {
@@ -125,8 +128,52 @@ a {
 
 }
 
+/*Mobile Sidebar*/
 
+body .sidebar {
+    top: 50px;
+    width: 60%;
+    height: 100vh;
+    transform: translate(167%);
+    position: fixed;
+    opacity: 0.99;
+    background-color: #2b66bd;
+    z-index: 100;
+    color: white;
+    transition-property: transform;
+    transition-duration: 1s;
+    display: block;
+    transition-timing-function: ease-out;
 
+}
+
+@media only screen and (max-width: 31.25rem) {
+    body .sidebar {
+        display: block;
+    }
+
+    body .sidebar ul {
+        margin-top: 50px;
+
+        }
+
+    body .sidebar ul li {
+    color: white;
+    font-family: "Cardo", serif;
+    font-size: 1.5rem;
+    padding-left: 10%;
+    list-style: none;
+    margin: 20px 0;
+    }
+
+    body .sidebar ul li:hover {
+        text-decoration: underline;
+    }
+
+    body .sidebar ul li a:hover {
+        color: #e1e5eb;
+    }
+}
 /*Footer*/
 
 

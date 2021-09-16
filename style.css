@@ -142,7 +142,7 @@ body .sidebar {
     color: white;
     transition-property: transform;
     transition-duration: 1s;
-    display: block;
+    display: none;
     transition-timing-function: ease-out;
 
 }

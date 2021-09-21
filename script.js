@@ -21,4 +21,12 @@ function triggerMenuButton(event) {
     
     
 }
-button.addEventListener('click', triggerMenuButton);
+
+    //if the addEventListener method exist it will use it. If not it will use attachEvent();
+    if (button.addEventListener) {
+        button.addEventListener('click', triggerMenuButton);
+    } else {
+        console.log('internet explorer 8');
+        button.attachEvent('onclick', triggerMenuButton);
+    }
+

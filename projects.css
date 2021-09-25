@@ -25,14 +25,14 @@ main {
     width: 100%;
     background-color: white;
     justify-content: space-around;
-    height: 700px;
+    height: 800px;
     align-items: space-around;
     flex-wrap: wrap;
 }
 .feature {
     background-color: grey;
     width: 500px;
-    height: 200px;
+    height: 255px;
 }
 
 

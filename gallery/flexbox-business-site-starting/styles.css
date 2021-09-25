@@ -1,0 +1,401 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 490px ) {
+    h2 {
+        margin-left: 10px;
+    }
+}
+
+/*Header */
+
+header {
+    background-color: #2A272B;
+    color:  white;
+    width: 100%;
+    padding: 15px 15px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: baseline;
+}
+
+header h1 {
+    font-size: 20px;
+    flex: 1;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+header nav {
+    margin-right: 50px;
+}
+
+header nav ul li:hover  {
+    color: #9C9C9C;
+    cursor: pointer;;
+}
+
+header h1:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    header nav ul li {
+        font-size: 14px;
+    }
+
+    header nav {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    header nav ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    header h1 {
+        font-size: 9px;
+    }
+}
+
+/*Hero */ 
+
+main #hero {
+    height: 600px;
+    width: 100%;
+    background-image: url('./rescources/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* About */
+
+
+main #about {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+
+main #about h2 {
+
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 0;
+}
+
+main #about p {
+    margin-top: 25px;
+
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 490px) {
+    main #about {
+        margin-left: 10px;
+        width: 70%;
+    }
+
+
+}
+
+
+
+/* Lineup */
+
+main #lineup {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 25px;
+}
+main #lineup .content-container {
+    background-color: #ebe6da;
+    margin-top: 50px;
+}
+main #lineup h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+main #lineup .gallery {
+    height: 1030px;
+    width: 810px;
+    background-color: #ebe6da;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+#lineup .gallery .feature .image-container {
+    height: 250px;
+    width: 100%
+}
+
+#lineup .gallery .feature {
+        width: 250px;
+}
+
+#lineup .gallery .feature:hover{
+    cursor: pointer;
+}
+
+#lineup .content-container .gallery .feature .content {
+    background-color: white;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+#lineup .content-container .gallery .feature .content h3 {
+    text-align: center;
+
+}
+
+
+#lineup .gallery .product1 {
+    background-image: url("./rescources/lineup/camera.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product2 {
+    background-image: url("./rescources/lineup/microphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product3 {
+    background-image: url("./rescources/lineup/printer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product4 {
+    background-image: url("./rescources/lineup/headphones.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product5 {
+    background-image: url("./rescources/lineup/keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product6 {
+    background-image: url("./rescources/lineup/laptop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product7 {
+    background-image: url("./rescources/lineup/monitor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product8 {
+    background-image: url("./rescources/lineup/phone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#lineup .gallery .product9 {
+    background-image: url("./rescources/lineup/usb.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 810px) {
+    #lineup .content-container .gallery {
+        width: 90%;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    #lineup .content-container .gallery .feature{
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 48%;
+    }
+
+}
+
+
+@media only screen and (max-width: 510px) {
+    #lineup .content-container .gallery {
+        flex-direction: column;
+        width: 100%;
+    }
+    #lineup .content-container .gallery .feature {
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        margin: 20px 0;
+    }
+}
+
+
+/*Our Team*/
+#team h2{
+    margin-top: 20px;
+}
+
+
+
+#team .content-container {
+    background-color: #ebe6da;
+    margin-top: 50px;
+    padding-bottom:  50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#team .content-container .feature {
+    width: 30%;
+    background-color: white;
+    margin-top: 50px;
+
+
+}
+
+#team .content-container .image-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#team .content-container .feature .image-container img {
+    width: 100%;
+}
+
+#team .content-container .feature .content {
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 890px) {
+    #team .content-container {
+        flex-direction: column;
+    }
+
+    #team .content-container .feature{
+        width: 100%;
+    }
+    
+
+
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #2A272B;
+    width: 100%;
+    height: 150px;
+    color: white;
+
+}
+
+footer nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: "Roboto", san-serif;
+
+}
+
+
+
+footer nav ul {
+    margin-top: 10px;
+}
+
+footer nav ul li {
+ list-style: none;
+ justify-content: space-between;
+}
+
+footer nav ul li:first-child {
+    font-weight: bold;
+}
+
+footer nav ul li:hover {
+    text-decoration: underline;
+}
+
+footer nav ul li:first-child:hover {
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    footer p {
+        font-size: 14px;
+    }
+
+    footer ul li {
+        font-size:  14px;
+    }
+}

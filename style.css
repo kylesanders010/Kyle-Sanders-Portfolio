@@ -107,7 +107,7 @@ a {
     transition-timing-function: ease-in-out;
 }
 
-@media only screen and (max-width: 800px) /*31.25rem*/ {
+@media only screen and (max-width: 900px) /*31.25rem*/ {
     header nav ul .extra {
         display: none;
     }

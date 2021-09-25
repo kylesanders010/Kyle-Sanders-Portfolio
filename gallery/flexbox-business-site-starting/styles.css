@@ -398,4 +398,15 @@ footer p {
     footer ul li {
         font-size:  14px;
     }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 770px) {
+    footer {
+        height: 200px;
+    }
 }

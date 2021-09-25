@@ -30,7 +30,7 @@ main {
     flex-wrap: wrap;
 }
 .feature {
-    background-color: grey;
+    background-color: white;
     width: 500px;
     height: 255px;
 }

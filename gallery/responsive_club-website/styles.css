@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+
+/*Header*/
+
+
+
+header {
+    font-family: 'Dancing Script', cursive;
+    background-color:  #C7412A;
+    color: #D9D5B8;
+    padding: 0.9375rem;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    position: fixed;
+    z-index: 100;
+
+    
+    
+}
+
+header h1 {
+    margin-left: 48.5%;
+    flex: 1;
+}
+
+header  h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 1.5625rem;
+}
+
+header form input[type="search"] {
+    padding: 0.3125rem;
+    font-size: 1rem;
+    vertical-align: middle;
+    
+}
+
+header form button[type="submit"] {
+    height: 1.875rem;
+    width: 1.875rem;
+    vertical-align: middle;
+    margin-left: -0.3125rem;
+    border: 0;
+    background-image: url("./rescources/icons/iconfinder_-_Magnifier-Search-Zoom-_3844467\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 41.25rem) {
+    header h1 {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 23.375rem) {
+    header h1 {
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 0.9rem;
+    }
+
+    header {
+        padding-left: 0;
+    }
+
+    header form input[type="search"] {
+        padding: 0.2rem;
+        vertical-align: middle;
+        width: 60%;
+        flex: 1;
+    }
+
+    header #search-bar {
+        width: 50%;
+
+
+    }
+
+    header #search-bar form {
+        width: 100%;
+    }
+
+    header #search-bar form .search-box {
+        display: flex;
+        align-items: center;
+
+    }
+
+    
+
+    header form button[type="submit"] {
+        height: 1.625rem;
+        width: 1.625rem;
+    }
+
+}
+
+
+/*Banner*/
+
+main {
+    width: 100%;
+    position: relative;
+    top: 4.14625rem;
+    overflow-x: hidden;
+}
+main #banner {
+    height: 35vh;
+    background-image: url("./rescources/background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 0 50%; 
+}
+
+
+@media only screen and (max-width: 990px ){
+    main #banner {
+        background-position: right 30% top 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    main #banner {
+        background-position: right 30% top 70%;
+    }
+}
+
+@media only screen and (max-width: 23.375rem) {
+    main {
+        top: 3.64rem;
+    }
+}
+
+
+/* Features */
+
+#features {
+    width: 100%;
+}
+
+#features .gallery {
+    width: 100%;
+    display: flex;
+    margin-top: 3.125rem;
+    justify-content: center;
+}
+
+#features .feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 2;
+    flex-basis: 87.5rem;
+    
+}
+
+#features .gallery .feature-container .card {
+    flex-basis: 20.9375rem;
+    padding: 1.5rem;
+    background-color: #262523;
+    height: 23.5rem;
+    /*margin: 0 3%;*/
+    border: 1px solid grey;
+    color: white;
+    font-family: "Noto Serif JP", serif;
+    text-align: center;
+    flex-shrink: 2;
+
+
+    
+}
+
+#features .gallery .card h2, h3 {
+    font-family: "Karla", sans-serif;
+}
+
+#features .gallery .card h2 {
+    font-size: 2rem;
+    margin-bottom: 0.125rem;
+}
+
+#features .gallery .card h3 {
+    font-size: 1.5rem;
+}
+
+#features .gallery .card .and {
+    font-size: 1.125rem;
+}
+
+#features .gallery .card ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#features .card .content {
+    position: relative;
+    height: 18.1875rem;
+}
+
+#features .gallery .card button {
+    font-size: 1.5rem;
+    padding: 0.4375rem;
+    background-color: #807775;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 0.625rem;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+#features .gallery .card button:hover {
+    background-color:  #4d4846;
+    color: #c9c9c9;
+}
+
+#features .gallery .card button:active {
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 63.75rem) {
+
+    #features .gallery .feature-container  {
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       
+    }
+
+    #features .gallery .feature-container .card {
+        width: 100%;
+        margin-top: 3.125rem;
+        border: 0;
+        
+    
+    }
+
+    
+
+    #features .gallery .feature-container .card h2 {
+        font-size: 3rem;
+    }
+
+    #features .gallery .feature-container .card h3 {
+        font-size: 1.8rem;
+    }
+
+    #features .gallery .feature-container .card .and {
+        font-size: 1rem;
+    }
+
+    #features .gallery .feature-container .card li{
+        font-size: 1.5rem;
+    }
+
+    #features .gallery .feature-container .card p {
+        font-size: 0.7rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 14.6875rem) {
+    #features .gallery .feature-container .card h2 {
+        font-size: 2rem;
+    }
+}
+
+/*Locations */
+
+#locations {
+    margin-top: 6.25rem;
+    width: 100%;
+}
+
+#locations h2 {
+    position: relative;
+    left: 5%;
+    font-weight: 400;
+    font-size: 2em;
+    font-family: "Noto Seriff JP", serif;
+}
+
+#locations .gallery {
+    width: 100%;
+    display: flex;
+    margin-top: 3.75rem;
+    margin-bottom: 3.125rem;
+    justify-content: space-around;
+}
+
+#locations .gallery .feature {
+    width: 48%;
+    background-color:  #262523;
+    border: 1px solid grey;
+
+}
+
+#locations .gallery .feature .image-container {
+    width: 100%;
+}
+
+#locations .gallery .feature .image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+#locations .gallery .feature .content {
+background-color:  #262523;
+text-align: center;
+width: 100%;
+color: white;
+font-size: 2.5em;
+padding: 0.3125rem;
+}
+
+
+@media only screen and (max-width: 31.875rem) {
+    #locations .gallery .feature .content {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 19.375rem) {
+    #locations .gallery .feature .content {
+        font-size: 0.8rem;
+    }
+}
+
+/*Contact */
+
+#contact {
+    width: 100%;
+
+}
+
+
+#contact .feature {
+    background-color:  #262523;
+    width: 50%;
+    color: white;
+    height: 6.25rem;
+    padding: 0.9375rem;
+    margin: 3.125rem auto;
+
+}
+
+#contact .feature h2 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+#contact .feature p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 31.875rem ) {
+    #contact .feature h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact .feature p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 31.875rem) {
+    #contact .feature {
+        width: 80%;
+    }
+}
+
+/*Footer */
+
+footer {
+    background-color:  #C7412A;;
+    height: 9.375rem;
+    color: white;
+}
+footer ul {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3.125rem;
+    align-items: center;
+    height: 6.25rem;
+    align-items: center;
+
+}
+footer ul li a {
+    display: inline;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+footer ul li { 
+    list-style: none;
+
+}
+
+footer ul li a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+footer .copy-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 23.125rem) {
+    footer ul li {
+        font-size: 0.9rem;
+    }
+}

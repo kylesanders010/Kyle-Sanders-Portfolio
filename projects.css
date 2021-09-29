@@ -35,6 +35,13 @@ main {
     height: 255px;
 }
 
+@media only screen and (max-width: 56.25rem) /*31.25rem*/ { 
+
+    #gallery .extra {
+        display: none;
+    }
+}
+
 
 
 
